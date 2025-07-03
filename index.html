@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+      SEO: Updated Title Tag
+      Specific to your environmental consulting business.
+    -->
+    <title>AquaHab Environmental Services - Watercourse, Wetland & Fish Habitat Consulting</title>
+
+    <!-- 
+      SEO: Updated Meta Description
+      Describes your specific services to attract the right clients.
+    -->
+    <meta name="description" content="AquaHab provides expert environmental consulting related to watercourses, fish habitat and wetlands, including passage assessment, habitat offsetting, regulatory compliance, drone surveying, watercourse alterations and training.">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom color palette based on your logo */
+        .bg-brand-dark { background-color: #0d3b4c; }
+        .bg-brand-accent { background-color: #009ddc; }
+        .bg-brand-accent-hover:hover { background-color: #008ac7; }
+        .text-brand-dark { color: #0d3b4c; }
+        .text-brand-accent { color: #009ddc; }
+
+        /* Animation */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-700">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="flex items-center">
+                <!-- 
+                  *** ACTION REQUIRED ***
+                  1. Upload your logo file (e.g., 'logo.png') to the same GitHub repository as this index.html file.
+                  2. Change the src="..." below to the name of your logo file. For example: src="logo.png"
+                -->
+                <img src="Logo_Long" alt="AquaHab Environmental Services Logo" class="h-12 md:h-14">
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-brand-accent transition duration-300">About</a>
+                <a href="#services" class="text-gray-600 hover:text-brand-accent transition duration-300">Services</a>
+                <a href="#contact" class="bg-brand-accent text-white px-5 py-2 rounded-full bg-brand-accent-hover transition duration-300 font-semibold">
+                    Contact
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="bg-brand-dark text-white text-center py-24 md:py-32">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">Sustainable Solutions for Aquatic Ecosystems</h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 text-gray-300">
+                    Expert environmental consulting specializing in fish habitat assessment, design, and regulatory compliance.
+                </p>
+                <a href="#services" class="bg-brand-accent text-white font-bold px-8 py-4 rounded-full bg-brand-accent-hover transition duration-300 text-lg">
+                    Explore Our Services
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6 fade-in-up">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="text-left">
+                        <h2 class="text-3xl font-bold mb-4 text-brand-dark">Bridging Development and Ecology</h2>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            AquaHab Environmental Services is dedicated to providing innovative and practical solutions for projects impacting aquatic environments. We partner with our clients to navigate complex regulatory landscapes, ensuring projects are both compliant and ecologically responsible.
+                        </p>
+                        <p class="text-gray-600 leading-relaxed">
+                             Our expertise in fisheries science, wetland science, and habitat restoration allows us to deliver results that support both industry and the environment.
+                        </p>
+                    </div>
+                    <div>
+                        <!-- Image Placeholder: Replace with a photo of your team, a project site, etc. -->
+                        <img src="field_image" alt="AquaHab project site" class="rounded-lg shadow-xl w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6 fade-in-up">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-brand-dark">Core Services</h2>
+                    <p class="text-gray-600 mt-2 max-w-2xl mx-auto">We offer a comprehensive suite of services to meet the needs of your project from planning to completion.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service Card Template -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+                        <img src="https://placehold.co/80x80/009ddc/ffffff?text=Icon" alt="Service Icon" class="h-16 w-16 mb-4 self-center">
+                        <h3 class="text-xl font-bold mb-3 text-brand-accent text-center">Fish Passage Assessment & Design</h3>
+                        <p class="text-gray-600 text-center flex-grow">
+                            Comprehensive analysis of barriers to fish movement and expert design of culverts, fishways, and other passage solutions.
+                        </p>
+                    </div>
+                     <!-- Service Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+                        <img src="https://placehold.co/80x80/009ddc/ffffff?text=Icon" alt="Service Icon" class="h-16 w-16 mb-4 self-center">
+                        <h3 class="text-xl font-bold mb-3 text-brand-accent text-center">Habitat Assessment & Offsetting</h3>
+                        <p class="text-gray-600 text-center flex-grow">
+                            Detailed fish habitat assessments and design of effective, compliant fisheries offsetting and compensation plans.
+                        </p>
+                    </div>
+                     <!-- Service Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+                        <img src="https://placehold.co/80x80/009ddc/ffffff?text=Icon" alt="Service Icon" class="h-16 w-16 mb-4 self-center">
+                        <h3 class="text-xl font-bold mb-3 text-brand-accent text-center">Wetland Assessment & Delineation</h3>
+                        <p class="text-gray-600 text-center flex-grow">
+                            Professional wetland asssessment using industry standardized Wetland Ecosysteam Services Protocol and delineation of wetland boundaries for regulatory compliance. 
+                        </p>
+                    </div>
+                     <!-- Service Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+                        <img src="https://placehold.co/80x80/009ddc/ffffff?text=Icon" alt="Service Icon" class="h-16 w-16 mb-4 self-center">
+                        <h3 class="text-xl font-bold mb-3 text-brand-accent text-center">Drone Surveying & GIS</h3>
+                        <p class="text-gray-600 text-center flex-grow">
+                            High-resolution aerial imagery, topographic mapping, and advanced GIS analysis for site planning and habitat monitoring.
+                        </p>
+                    </div>
+                     <!-- Service Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+                        <img src="https://placehold.co/80x80/009ddc/ffffff?text=Icon" alt="Service Icon" class="h-16 w-16 mb-4 self-center">
+                        <h3 class="text-xl font-bold mb-3 text-brand-accent text-center">Watercourse Alterations</h3>
+                        <p class="text-gray-600 text-center flex-grow">
+                            Certified expertise in the planning, sizing, and installation of watercourse alterations to meet regulations.
+                        </p>
+                    </div>
+                     <!-- Service Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+                        <img src="https://placehold.co/80x80/009ddc/ffffff?text=Icon" alt="Service Icon" class="h-16 w-16 mb-4 self-center">
+                        <h3 class="text-xl font-bold mb-3 text-brand-accent text-center">Professional Training</h3>
+                        <p class="text-gray-600 text-center flex-grow">
+                            Customized training workshops and courses for teams on topics like fish habitat assessment, regulations, and best practices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-brand-dark py-20">
+            <div class="container mx-auto px-6 text-center fade-in-up">
+                <h2 class="text-3xl font-bold mb-4 text-white">Let's Discuss Your Project</h2>
+                <p class="text-gray-300 max-w-2xl mx-auto mb-8">
+                    Reach out to see how we can help you achieve your project goals while protecting aquatic resources.
+                </p>
+                <div class="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto text-left text-brand-dark">
+                    <p class="mb-4"><strong>Email:</strong> <a href="mailto: danielsjwilliam@gmail.com" class="text-brand-accent hover:underline">[your-email@example.com]</a></p>
+                    <p class="mb-4"><strong>Phone:</strong> <a href="tel:902-219-0224" class="text-brand-accent hover:underline">[Your Phone Number]</a></p>
+                    <p><strong>Location:</strong> [Lunenburg, NS]</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; <span id="year"></span> AquaHab Environmental Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set the current year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Intersection Observer for fade-in animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        const sections = document.querySelectorAll('.fade-in-up');
+        sections.forEach(section => observer.observe(section));
+    </script>
+
+</body>
+</html>
