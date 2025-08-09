@@ -17,6 +17,7 @@ describe('footer year', () => {
 
     const testYear = 2000;
     jest.useFakeTimers().setSystemTime(new Date(`${testYear}-01-01`));
+    window.Date = Date;
 
     // Execute the footer script from index.html
     const scripts = window.document.querySelectorAll('script');
