@@ -1,0 +1,8 @@
+body { font-family: 'Inter', sans-serif; }
+.bg-brand-dark { background-color: #0d3b4c; }
+.bg-brand-accent { background-color: #009ddc; }
+.bg-brand-accent-hover:hover { background-color: #008ac7; }
+.text-brand-dark { color: #0d3b4c; }
+.text-brand-accent { color: #009ddc; }
+.fade-in-up { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+.fade-in-up.visible { opacity: 1; transform: translateY(0); }
