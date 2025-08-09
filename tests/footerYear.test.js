@@ -18,6 +18,9 @@ describe('footer year', () => {
     const testYear = 2000;
     jest.useFakeTimers().setSystemTime(new Date(`${testYear}-01-01`));
 
+    // Ensure the JSDOM window uses the mocked Date
+    window.Date = Date;
+
     // Execute the footer script from index.html
     const scripts = window.document.querySelectorAll('script');
     const footerScript = scripts[scripts.length - 1].textContent;
